@@ -1,0 +1,24 @@
+.tourist{
+	background: linear-gradient(rgba(60, 73, 85, 0.6),rgba(60, 73, 85, 0.6)),
+	            url("img/rectangle-4142.jpg");
+	height: 730px;
+
+	.sam{
+		display: flex;
+	}
+}
+.footer{
+	color:#fff;
+	text-align:center;
+	text-decoration: none;
+	background:#333333;
+	ul{
+		display: flex;
+		li{
+			text-align:center;
+			margin: 10px;
+			font-size: 30px;
+			list-style: none;
+		}
+	}
+}

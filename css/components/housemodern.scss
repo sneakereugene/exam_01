@@ -1,0 +1,35 @@
+.housemodern{
+	background: url("../img/Rectangle-414.jpg");
+	background-attachment:fixed;
+	height: 473px;
+	position: relative;
+	padding-top: 227px;
+	padding-left:60px;
+	.popup{
+		width: 466px;
+		height: 300px;
+		background: rgba(47, 40, 37, 0.6);
+		padding: 40px 32px 40px 32px;
+		color: #fff;
+		font-family: 'Josefin Sans', sans-serif;
+
+		button{
+			border: none;
+			background: $button;
+			padding: 20px 60px 20px 60px;
+			font-size: 16px;
+
+		}
+		h5{
+			font-size: 20px;
+    		font-weight: 400;
+		}
+		h4{
+			text-transform: uppercase;
+			font-weight: 400;
+		}
+		p{
+			font-size: 16px;
+		}
+	}
+}

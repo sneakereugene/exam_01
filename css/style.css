@@ -1,0 +1,174 @@
+@import url(./normalize.css);
+.title {
+  height: 650px;
+  background: url("../img/1mount.jpg");
+  background-attachment: fixed;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif; }
+  .title .container {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .title .container .title_search {
+      display: flex;
+      color: blue; }
+      .title .container .title_search input {
+        width: 500px;
+        height: 60px;
+        border: none;
+        text-align: center; }
+      .title .container .title_search button {
+        border: 3px solid #fff;
+        width: 150px;
+        background: #5474fd;
+        color: #fff; }
+
+.main-menu {
+  background: #5474fd;
+  height: 81px;
+  align-items: center;
+  display: flex;
+  padding: 5px 20% 5px 20%;
+  color: #fff; }
+  .main-menu .main-menu_items {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px; }
+    .main-menu .main-menu_items li {
+      text-transform: uppercase;
+      padding: 10px 20px 10px 20px;
+      list-style: none; }
+      .main-menu .main-menu_items li a {
+        text-decoration: none;
+        color: #fff; }
+        .main-menu .main-menu_items li a:hover {
+          color: blue; }
+
+.old-town {
+  background: linear-gradient(rgba(60, 73, 85, 0.6), rgba(60, 73, 85, 0.6)), url("../img/Rectangle-7.jpg");
+  height: 650px;
+  position: relative; }
+  .old-town .container1 {
+    display: flex;
+    align-items: center;
+    text-align: center; }
+    .old-town .container1 .old-town_info {
+      width: 530px;
+      text-align: left;
+      color: #fff;
+      font-family: Aleo; }
+      .old-town .container1 .old-town_info h1 {
+        font-size: 36px; }
+      .old-town .container1 .old-town_info p {
+        font-size: 16px; }
+      .old-town .container1 .old-town_info button {
+        border: none;
+        background: #5474fd;
+        padding: 20px 60px 20px 60px;
+        font-size: 16px;
+        color: #FFF;
+        text-transform: uppercase; }
+    .old-town .container1 .old-town_photos {
+      height: 475px;
+      margin-top: 100px; }
+      .old-town .container1 .old-town_photos .old-town_photos--left {
+        margin-left: 220px; }
+
+.housemodern {
+  background: url("../img/Rectangle-414.jpg");
+  background-attachment: fixed;
+  height: 473px;
+  position: relative;
+  padding-top: 227px;
+  padding-left: 60px; }
+  .housemodern .popup {
+    width: 466px;
+    height: 300px;
+    background: rgba(47, 40, 37, 0.6);
+    padding: 40px 32px 40px 32px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif; }
+    .housemodern .popup button {
+      border: none;
+      background: #5474fd;
+      padding: 20px 60px 20px 60px;
+      font-size: 16px; }
+    .housemodern .popup h5 {
+      font-size: 20px;
+      font-weight: 400; }
+    .housemodern .popup h4 {
+      text-transform: uppercase;
+      font-weight: 400; }
+    .housemodern .popup p {
+      font-size: 16px; }
+
+.mountains {
+  background: url("../img/rectangle-4141.jpg");
+  height: 473px;
+  position: relative;
+  padding-top: 227px;
+  padding-left: 680px; }
+  .mountains .popup {
+    width: 466px;
+    height: 300px;
+    background: rgba(47, 40, 37, 0.6);
+    padding: 40px 32px 40px 32px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif; }
+    .mountains .popup button {
+      border: none;
+      background: #5474fd;
+      padding: 20px 60px 20px 60px;
+      font-size: 16px; }
+    .mountains .popup h5 {
+      font-size: 20px;
+      font-weight: 400; }
+    .mountains .popup h4 {
+      text-transform: uppercase;
+      font-weight: 400; }
+    .mountains .popup p {
+      font-size: 16px; }
+
+.tourist {
+  background: linear-gradient(rgba(60, 73, 85, 0.6), rgba(60, 73, 85, 0.6)), url("img/rectangle-4142.jpg");
+  height: 730px; }
+  .tourist .sam {
+    display: flex; }
+
+.footer {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #333333; }
+  .footer ul {
+    display: flex; }
+    .footer ul li {
+      text-align: center;
+      margin: 10px;
+      font-size: 30px;
+      list-style: none; }
+
+.container {
+  width: 650px; }
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.container1 {
+  width: 1005px;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: Aleo;
+  src: url("../fonts/Aleo-Light.otf"); }
+
+/*# sourceMappingURL=style.css.map */

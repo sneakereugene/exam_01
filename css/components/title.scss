@@ -1,0 +1,67 @@
+.title{
+	height:650px;
+	background: url("../img/1mount.jpg");
+	background-attachment:fixed;
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	.container{
+		position: relative;
+		text-align: center;
+		align-items: center;
+		top:50%;
+		left:50%;
+		transform: translate( -50%, -50%);
+		.title_search{
+
+			display: flex;
+			color:blue;
+			input{
+			width: 500px;
+			height: 60px;
+			border: none;
+			// padding-left:0px;
+			text-align: center;
+			}
+			button{
+				border: 3px solid #fff;
+				width: 150px;
+				background: $button;
+				color:#fff;
+			}
+		}
+	}
+
+}
+.main-menu{
+		background: $button;
+		height: 81px;
+		align-items:center;
+		display:flex;
+		padding: 5px 20% 5px 20%;
+		color:#fff;
+		.main-menu_items{
+			margin: 0 auto;
+			text-align:center;
+			position: relative;
+			display:flex;
+		   	text-align: center;
+
+		   	font-family: 'Josefin Sans', sans-serif;
+		   	font-weight:700;
+		   	font-size: 14px;
+
+			li{
+				text-transform: uppercase;
+				padding:10px 20px 10px 20px;
+				list-style: none;
+
+				a{
+					text-decoration: none;
+					color:#fff;
+					&:hover{
+						color: blue;
+					}
+				}
+			}
+	}
+}

@@ -1,0 +1,23 @@
+@import './components/variables.scss';
+@import './components/title.scss';
+@import './components/old-town.scss';
+@import './components/housemodern.scss';
+@import './components/mountains.scss';
+@import './components/tourist.scss';
+@import './normalize.css';
+.container{
+	width: 650px;
+}
+h1{
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+.container1{
+	width:1005px;
+	margin: 0 auto;
+}
+@font-face {
+    font-family: Aleo;
+    src: url("../fonts/Aleo-Light.otf");
+  }

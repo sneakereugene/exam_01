@@ -1,0 +1,39 @@
+.old-town{
+	background: linear-gradient(rgba(60, 73, 85, 0.6),rgba(60, 73, 85, 0.6)),
+	           url("../img/Rectangle-7.jpg");
+	height: 650px;
+	position: relative;
+
+	.container1{
+		display:flex;
+		align-items:center;
+		text-align: center;
+		.old-town_info{
+			width: 530px;
+			text-align: left;
+			color:#fff;
+			font-family: Aleo;
+			h1{
+				font-size: 36px;
+			}
+			p{
+				font-size: 16px;
+			}
+			button{
+				border: none;
+				background: $button;
+				padding: 20px 60px 20px 60px;
+				font-size: 16px;
+				color: #FFF;
+				text-transform: uppercase;
+			}
+		}
+		.old-town_photos{
+			height: 475px;
+			margin-top: 100px;
+			.old-town_photos--left{
+				margin-left: 220px;
+			}
+		}
+	}
+}
